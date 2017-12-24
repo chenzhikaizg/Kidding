@@ -36,7 +36,7 @@ public class SendActivity extends BaseSkinActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(SendActivity.this,2/0+"bug测试",Toast.LENGTH_SHORT).show();
+                Toast.makeText(SendActivity.this,"bug测试",Toast.LENGTH_SHORT).show();
             }
         });
     }
